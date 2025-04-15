@@ -100,15 +100,21 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    align-items: center;
+    padding: 2rem;
+}
+
+.product-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .product-image {
     position: relative;
     width: 100%;
-    max-width: 600px;
     height: auto;
-    margin: 0 auto;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -465,8 +471,11 @@ footer {
         gap: 2rem;
     }
 
-    .product-image {
+    .product-images {
         max-width: 100%;
+    }
+
+    .product-image {
         margin-bottom: 1rem;
     }
 
