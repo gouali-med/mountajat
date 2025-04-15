@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مونتاجات - قندورة أنيقة ديال الحرير</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">مونتاجات</div>
+            <div class="nav-right">
+                <a href="#details" class="nav-link">التفاصيل</a>
+                <a href="#avantages" class="nav-link">المميزات</a>
+                <a href="#commander" class="nav-link">طلب</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-hero">
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="images/product1.jpg" alt="قندورة أنيقة مونتاجات">
+                    <div class="image-overlay">
+                        <span class="badge">جديد</span>
+                        <span class="badge">صنع يدوي</span>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h1>قندورة أنيقة مونتاجات</h1>
+                    <p class="price">2300 درهم</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(42 تقييم)</span>
+                    </div>
+                    <p class="description">قندورة راقية مصنوعة من الحرير الطبيعي، مناسبة للمناسبات الخاصة. مصنوعة بمواد عالية الجودة وحرفية يدوية.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>100% حرير طبيعي</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>صنع يدوي في فرنسا</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>توصيل مجاني</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>إرجاع مجاني خلال 30 يوم</span>
+                        </div>
+                    </div>
+
+                    <div class="size-guide">
+                        <h3>دليل المقاسات</h3>
+                        <div class="size-table">
+                            <div class="size-row">
+                                <span>XS</span>
+                                <span>32-34</span>
+                                <span>84-86</span>
+                            </div>
+                            <div class="size-row">
+                                <span>S</span>
+                                <span>36-38</span>
+                                <span>88-90</span>
+                            </div>
+                            <div class="size-row">
+                                <span>M</span>
+                                <span>40-42</span>
+                                <span>92-94</span>
+                            </div>
+                            <div class="size-row">
+                                <span>L</span>
+                                <span>44-46</span>
+                                <span>96-98</span>
+                            </div>
+                            <div class="size-row">
+                                <span>XL</span>
+                                <span>48-50</span>
+                                <span>100-102</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="order-form" class="order-form">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="size">المقاس</label>
+                            <select id="size" name="size" required>
+                                <option value="">اختر مقاسك</option>
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">عنوان التوصيل</label>
+                            <textarea id="address" name="address" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">رسالة خاصة (اختياري)</label>
+                            <textarea id="message" name="message" placeholder="تعليمات خاصة للتوصيل أو طلبات أخرى"></textarea>
+                        </div>
+                        <button type="submit" class="order-button">
+                            <i class="fas fa-shopping-cart"></i>
+                            طلب الآن
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="details" class="product-details-section">
+            <div class="details-container">
+                <h2>تفاصيل المنتج</h2>
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <i class="fas fa-cut"></i>
+                        <h3>القص</h3>
+                        <p>قص محكم مع خصر محدد وتنورة متدفقة</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-tshirt"></i>
+                        <h3>المادة</h3>
+                        <p>100% حرير طبيعي عالي الجودة</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-palette"></i>
+                        <h3>اللون</h3>
+                        <p>أسود كلاسيكي مع لمعان خفيف</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-ruler"></i>
+                        <h3>الطول</h3>
+                        <p>طول منتصف الساق، مناسب لجميع المناسبات</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-gallery">
+            <h2>معرض الصور</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="images/product1.jpg" alt="قندورة أنيقة - منظر أمامي">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/product2.jpg" alt="قندورة أنيقة - منظر خلفي">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/product3.jpg" alt="قندورة أنيقة - تفاصيل القماش">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/product4.jpg" alt="قندورة أنيقة - تفاصيل الخياطة">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/product5.jpg" alt="قندورة أنيقة - منظر جانبي">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/product6.jpg" alt="قندورة أنيقة - تفاصيل الزخرفة">
+                </div>
+            </div>
+        </section>
+
+        <section id="avantages" class="benefits-section">
+            <div class="benefits-container">
+                <h2>لماذا تختار مونتاجات</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <i class="fas fa-gem"></i>
+                        <h3>جودة استثنائية</h3>
+                        <p>مواد عالية الجودة وصناعة يدوية</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-truck"></i>
+                        <h3>توصيل سريع</h3>
+                        <p>توصيل سريع خلال 2-3 أيام عمل</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-undo"></i>
+                        <h3>إرجاع سهل</h3>
+                        <p>إرجاع مجاني خلال 30 يوم</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-heart"></i>
+                        <h3>خدمة العملاء</h3>
+                        <p>دعم العملاء متاح 7 أيام في الأسبوع</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>اتصل بنا</h3>
+                <p><i class="fas fa-phone"></i> +212 710-96-47-47</p>
+                <p><i class="fas fa-envelope"></i> contact@montajaat.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>التوصيل</h3>
+                <p>توصيل مجاني في المغرب</p>
+                <p>إرجاع مجاني خلال 30 يوم</p>
+            </div>
+            <div class="footer-section">
+                <h3>تابعونا</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://wa.me/212710964747" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 مونتاجات. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/212710964747" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html> 
